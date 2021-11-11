@@ -1,0 +1,25 @@
+<h3>Routing Demo  in Angular</h3>
+<hr/>
+<h3>Single Page Application Development in Angular</h3>
+<hr/>
+
+
+<div style="text-align:center;">
+  <a [routerLink]="['']">Home</a>  |
+  <a [routerLink]="['/Emps']">Employees</a>  |
+  <a [routerLink]="['/Emps2']">Employees2</a>  |
+  <a [routerLink]="['/Depts']">Departments</a>  |
+  <a [routerLink]="['/Aboutus']">About Us</a>  |
+  <a [routerLink]="['/Login']">Login</a>  |
+  <a [routerLink]="['/Register']">Register</a>  |
+  
+  <a [routerLink]="['/admin']">Admin</a>  
+  <!-- <a [routerLink]="['/admin/projects']">Projects</a>  
+  <a [routerLink]="['/admin/branches']">Branches</a>  -->
+  
+</div>
+
+<hr/>
+
+
+<router-outlet></router-outlet>

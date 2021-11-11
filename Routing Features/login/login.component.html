@@ -1,0 +1,16 @@
+<p>Welcome To Login Page</p>
+<hr/>
+<img height="150" src="assets/login.png" />
+
+<hr/>
+<fieldset>
+    <legend>User Login</legend>
+    User Name  :
+    <input type="text"  [(ngModel)]="uid" />
+    <br/><br/>
+    Password :
+      <input type="password"  [(ngModel)]="pwd" />
+      <br/><br/>
+    <input type="button" (click)="login_click()" value="Login"  />
+    <h3>{{result}}</h3>
+  </fieldset>
